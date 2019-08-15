@@ -25,6 +25,21 @@ function fizzBuzz (n){
     else console.log(num)
 
   })
+  
 }
+// function fizzBuzz (n){
+// 	let numbers = [];
+// 	for (let i = 1; i <= n; i++) numbers.push(i);
+// 	// print fizzbuzz if the number is divisible by 3 or 5
+// 	for (let num of numbers) {
+// 		if (num % 3 === 0 && num % 5 === 0) console.log('fizzbuzz');
+// 		else if (num % 3 === 0) console.log('fizz');
+// 		else if (num % 5 === 0) console.log('buzz');
+// 		else console.log(num);
+// 	}
+
+// 	// print fizz if the number is divisible by 3
+// 	// print buzz if the nubmer is divisible by 5
+// }
 
 module.exports = fizzBuzz;
