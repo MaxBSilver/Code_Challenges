@@ -1,7 +1,15 @@
-const createMatrix = (n) => {
+const createMatrix = n => {
   let subArrays = [];
-  for(let i=0; i < n; i++) subArrays.push([]);
-  console.log(subArrays);
-}
+  let nums = [];
+	// create matrix subarray
+	for (let i = 0; i < n; i++) {
+    subArrays.push([]);
+    nums.push(i+1);
+    
+  }
+  console.log('running');
+  console.log(nums)
+	// create a an array of all numbers
+};
 
-createMatrix(2);
+createMatrix(8);
