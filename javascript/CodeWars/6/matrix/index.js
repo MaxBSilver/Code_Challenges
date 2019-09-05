@@ -4,4 +4,4 @@ const createMatrix = (n) => {
   console.log(subArrays);
 }
 
-createMatrix(4);
+createMatrix(2);
