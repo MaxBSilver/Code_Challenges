@@ -16,11 +16,6 @@ function solution (list){
     }
     else return sub;
   })
-	// console.log(subArrs)
-	// iterate through the list
-	// if a number does not have a following increment pop it directly into a new array in subArrs
-	// if a number does have a following increment, continue to check if there are more;
-	// remove the numbers as you increment
 
 	return subArrs.flat().join(',');
 }
